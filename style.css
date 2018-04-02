@@ -1,0 +1,128 @@
+body {
+    font-family: 'Bangers', cursive;
+    background-color: white;
+    color: white;
+  }
+  
+  #twitterIcon {
+    color: rgb(0,172,237);
+  }
+  
+  #gitHubIcon {
+    color: rgb(102,43,129);
+  }
+  
+  #linkedInIcon {
+    color: rgb(0,119,181);
+  }
+  
+  #twitchIcon {
+    color: rgb(100,65,164);
+  }
+  
+  #youtubeIcon {
+    color: rgb(255,0,0);
+  }
+  
+  .nav {
+    background-color: black;
+    position: fixed;
+    top: 0; 
+    z-index: 999;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav a {
+    display: block;
+    color: light-blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .nav a:hover {
+    background: gray;
+    color: black;
+  }
+  
+  .block {
+    background-color: gray;
+    color: blue;
+    opacity: .7;
+    width: 50%;
+    padding: 2px;
+    margin-top: 5.5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    padding: 0;
+    margin-top: 0px;
+    font-size: 5.0em;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .btn-default {
+    background-color: black;
+    border-color: #e74c3c;
+    border-width: 2px;
+    color: #3498db;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .pageOne {
+    background: url(http://i68.tinypic.com/11b3n95.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  
+  .pageTwo {
+    background: url(http://i67.tinypic.com/20fdu9k.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  
+  .topText {
+    padding-bottom: 10%;
+  }
+  
+  .me {
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+  }
+  
+  .pageThree {
+    background: url(http://i66.tinypic.com/14vk8m0.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .pageFour {
+    background: url(http://i64.tinypic.com/10nxf0g.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  p {
+    font-size: 2.2em;
+  }
